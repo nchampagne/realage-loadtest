@@ -28,17 +28,11 @@ val settings = Seq(
   },
 
   libraryDependencies ++= Seq(
-//    "org.reactivemongo" %% "reactivemongo"        % "0.12.6",
-    "com.typesafe.akka" %% "akka-stream"          % "2.5.4",
-    "com.typesafe.akka" %% "akka-actor"           % "2.5.4",
-//    "de.knutwalker"     %% "akka-stream-json"     % "3.3.0",
-//    "de.knutwalker"     %% "akka-http-json"       % "3.3.0",
-//    "com.typesafe.play" %% "play-json"            % "2.6.3",
-    "com.typesafe.play" %% "play-ahc-ws-standalone"              % "1.1.0",
+    "com.typesafe.akka" %% "akka-stream"              % "2.5.4",
+    "com.typesafe.akka" %% "akka-actor"               % "2.5.4",
+    "com.typesafe.play" %% "play-ahc-ws-standalone"   % "1.1.0",
     "com.typesafe.play" %% "play-ws-standalone-json"  % "1.1.0",
-//    "org.spire-math"    %% "jawn-play"            % "0.11.0",
-//    "ch.qos.logback"    % "logback-classic"       % "1.2.3",
-    "com.typesafe.akka" %% "akka-stream-testkit"  % "2.5.4"   % Test
+    "com.typesafe.akka" %% "akka-stream-testkit"      % "2.5.4"   % Test
   )
 )
 
